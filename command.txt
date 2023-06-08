@@ -1,1 +1,0 @@
-cat access.log | awk '{print , }' | sort | uniq -c  | sort -r -n | head -n 500 | bb lightning.clj
